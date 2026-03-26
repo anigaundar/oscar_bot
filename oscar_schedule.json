@@ -1,0 +1,515 @@
+{
+  "conference": "OSCAR v4",
+  "organizer": "Organon",
+  "timezone": "UAE Time (GMT+4)",
+  "days": [
+    {
+      "day": 1,
+      "date": "November 15, 2024",
+      "rooms": [
+        {
+          "name": "Room 1 – Women's Health",
+          "tracks": [
+            {
+              "track": "Fertility",
+              "time_block": "12:00PM – 03:00PM",
+              "sessions": [
+                {
+                  "start": "12:00PM",
+                  "end": "12:30PM",
+                  "title": "Individualization of ovarian stimulation and beyond",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Majed Alhudhud", "role": "Speaker", "country": "KSA" }
+                  ]
+                },
+                {
+                  "start": "12:30PM",
+                  "end": "01:00PM",
+                  "title": "Freeze all tactics. Is it for everyone?",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Vitaliy Radko", "role": "Speaker", "country": "Ukraine" }
+                  ]
+                },
+                {
+                  "start": "01:00PM",
+                  "end": "01:30PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                },
+                {
+                  "start": "01:30PM",
+                  "end": "02:00PM",
+                  "title": "The LH-added theory: is it worth it?",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Christos Venetis", "role": "Speaker", "country": "Greece" }
+                  ]
+                },
+                {
+                  "start": "02:00PM",
+                  "end": "02:30PM",
+                  "title": "How do we optimize success through patient support programs?",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Angeline Beltsos", "role": "Speaker", "country": "USA" }
+                  ]
+                },
+                {
+                  "start": "02:30PM",
+                  "end": "03:00PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                }
+              ]
+            },
+            {
+              "track": "Contraception",
+              "time_block": "03:00PM – 06:00PM",
+              "sessions": [
+                {
+                  "start": "03:00PM",
+                  "end": "03:30PM",
+                  "title": "Review of Contraception Policies, Access and Funding across MENA",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Adrien Leger", "role": "Speaker", "country": "Belgium" },
+                    { "name": "Shamsa Al Awar", "role": "Speaker", "country": "UAE" },
+                    { "name": "Shazia Maqsood", "role": "Speaker", "country": "KSA" }
+                  ]
+                },
+                {
+                  "start": "03:30PM",
+                  "end": "04:00PM",
+                  "title": "Choosing the Right Contraception: A Personalized Approach",
+                  "type": "panel",
+                  "participants": [
+                    { "name": "Mazen Bishtawy", "role": "Moderator", "country": "Qatar" },
+                    { "name": "Amina Butt", "role": "Speaker", "country": "KSA" },
+                    { "name": "Mohamed Farghali", "role": "Speaker", "country": "Kuwait" }
+                  ]
+                },
+                {
+                  "start": "04:00PM",
+                  "end": "04:30PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                },
+                {
+                  "start": "04:30PM",
+                  "end": "05:00PM",
+                  "title": "Clinical Pearls for Implants and LARCs",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Ayman Abo ElNour", "role": "Speaker", "country": "Egypt" }
+                  ]
+                },
+                {
+                  "start": "05:00PM",
+                  "end": "05:30PM",
+                  "title": "Mastering Implants: Tips and Tricks for Effective Use",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Fatima al Hajiri", "role": "Speaker", "country": "UAE" }
+                  ]
+                },
+                {
+                  "start": "05:30PM",
+                  "end": "06:00PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                }
+              ]
+            },
+            {
+              "track": "PPH",
+              "time_block": "06:00PM – 08:00PM",
+              "sessions": [
+                {
+                  "start": "06:00PM",
+                  "end": "06:30PM",
+                  "title": "Understanding the Butterfly Effect: How PPH Unmet Needs Affect Patients, Communities, and Healthcare Delivery",
+                  "type": "panel",
+                  "participants": [
+                    { "name": "Maysoun Adham", "role": "Moderator", "country": "KSA" },
+                    { "name": "Abdalla Adra", "role": "Speaker", "country": "Lebanon" }
+                  ]
+                },
+                {
+                  "start": "06:30PM",
+                  "end": "07:00PM",
+                  "title": "Innovations in PPH Management: Aligning Updated Guidelines with Cost-Effective Practices for Better Outcomes",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Fadi Mirza", "role": "Speaker", "country": "UAE" },
+                    { "name": "Rudaina Hassan", "role": "Speaker", "country": "Qatar" }
+                  ]
+                },
+                {
+                  "start": "07:00PM",
+                  "end": "07:30PM",
+                  "title": "Learning and experience with VIHC for PPH management",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Michelle Berkinholz", "role": "Speaker", "country": "USA" }
+                  ]
+                },
+                {
+                  "start": "07:30PM",
+                  "end": "08:00PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Room 2 – Cardiovascular, Respiratory, Migraine",
+          "tracks": [
+            {
+              "track": "Cardiovascular",
+              "time_block": "12:00PM – 02:05PM",
+              "sessions": [
+                {
+                  "start": "12:00PM",
+                  "end": "12:15PM",
+                  "title": "Introduction",
+                  "type": "introduction",
+                  "participants": [
+                    { "name": "Moussa Akbar", "role": "Moderator", "country": "Kuwait" }
+                  ]
+                },
+                {
+                  "start": "12:15PM",
+                  "end": "12:40PM",
+                  "title": "Caring for half the world: Reducing gaps in CVD in women",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Khalid Alhabib", "role": "Speaker", "country": "KSA" }
+                  ]
+                },
+                {
+                  "start": "12:40PM",
+                  "end": "01:05PM",
+                  "title": "Accelerating achievement of LDL-C goals: Fighting the #1 killer worldwide",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Nabil Farag", "role": "Speaker", "country": "Egypt" }
+                  ]
+                },
+                {
+                  "start": "01:05PM",
+                  "end": "01:30PM",
+                  "title": "Beyond the numbers: Combating the hypertension epidemic",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Osama Barakat", "role": "Speaker", "country": "UAE" }
+                  ]
+                },
+                {
+                  "start": "01:30PM",
+                  "end": "02:05PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                }
+              ]
+            },
+            {
+              "track": "Respiratory",
+              "time_block": "02:05PM – 04:35PM",
+              "sessions": [
+                {
+                  "start": "02:05PM",
+                  "end": "02:50PM",
+                  "title": "Panel Discussion: From Wheeze to Sneeze - Modern Management of Asthma and Allergic Rhinitis",
+                  "type": "panel",
+                  "participants": [
+                    { "name": "Mahmoud ElBatanouny", "role": "Moderator", "country": "Egypt" },
+                    { "name": "Amr Shoukry", "role": "Speaker", "country": "KSA" },
+                    { "name": "Mona Al Ahmad", "role": "Speaker", "country": "Kuwait" }
+                  ]
+                },
+                {
+                  "start": "02:50PM",
+                  "end": "03:05PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                },
+                {
+                  "start": "03:05PM",
+                  "end": "03:35PM",
+                  "title": "Case Presentations: Double Trouble - Managing Concomitant Asthma and Allergic Rhinitis Effectively in Children",
+                  "type": "case_presentation",
+                  "participants": [
+                    { "name": "David Cremonesiny", "role": "Speaker", "country": "UAE" },
+                    { "name": "Pierre Hage", "role": "Speaker", "country": "Lebanon" }
+                  ]
+                },
+                {
+                  "start": "03:35PM",
+                  "end": "04:05PM",
+                  "title": "Optimizing Patient Care: Referral Strategies and Non-Surgical Approaches in Rhinological Disorders",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Ossama Abdel Nossier", "role": "Speaker", "country": "Egypt" }
+                  ]
+                },
+                {
+                  "start": "04:05PM",
+                  "end": "04:35PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                }
+              ]
+            },
+            {
+              "track": "Migraine",
+              "time_block": "04:35PM – 06:50PM",
+              "sessions": [
+                {
+                  "start": "04:35PM",
+                  "end": "04:50PM",
+                  "title": "Introduction",
+                  "type": "introduction",
+                  "participants": [
+                    { "name": "Jasem Al Hashel", "role": "Moderator", "country": "Kuwait" }
+                  ]
+                },
+                {
+                  "start": "04:50PM",
+                  "end": "05:20PM",
+                  "title": "Pioneering the Future: Guidelines updates on Migraine Prevention",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Osama Alamy", "role": "Speaker", "country": "Qatar" }
+                  ]
+                },
+                {
+                  "start": "05:20PM",
+                  "end": "05:50PM",
+                  "title": "Advancements in Migraine Prevention: A Brighter Future for Patients",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Deeb Maxwell Kayed", "role": "Speaker", "country": "UAE" }
+                  ]
+                },
+                {
+                  "start": "05:50PM",
+                  "end": "06:20PM",
+                  "title": "Empowering Patients: Personalized Approaches to Migraine Prevention",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Adel AlHazzani", "role": "Speaker", "country": "KSA" }
+                  ]
+                },
+                {
+                  "start": "06:20PM",
+                  "end": "06:50PM",
+                  "title": "Transforming migraine treatment paradigm: panel discussion",
+                  "type": "panel",
+                  "participants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "November 16, 2024",
+      "rooms": [
+        {
+          "name": "Room 1 – Bone/Pain & Biosimilars",
+          "tracks": [
+            {
+              "track": "Bone/Pain & Biosimilars",
+              "time_block": "12:00PM – 03:50PM",
+              "sessions": [
+                {
+                  "start": "12:00PM",
+                  "end": "12:30PM",
+                  "title": "Pain management: An individualized care plan and a structured education for patients at high risk of transition to chronicity",
+                  "type": "panel",
+                  "participants": [
+                    { "name": "Hossam El Shafey", "role": "Moderator", "country": "Egypt" },
+                    { "name": "Ayman Mohamed Shaarway", "role": "Speaker", "country": "Oman" },
+                    { "name": "Fady Zeinl Abidine", "role": "Speaker", "country": "Lebanon" }
+                  ]
+                },
+                {
+                  "start": "12:30PM",
+                  "end": "01:00PM",
+                  "title": "From chronic pain to disability: Early identification of people at high risk and impact on daily work/activities",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Ahmed El Gendy", "role": "Speaker", "country": "KSA" },
+                    { "name": "Elsa van Duuren", "role": "Speaker", "country": "South Africa" }
+                  ]
+                },
+                {
+                  "start": "01:00PM",
+                  "end": "01:30PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                },
+                {
+                  "start": "01:30PM",
+                  "end": "02:10PM",
+                  "title": "Navigating RA: From diagnosis to cutting edge therapies",
+                  "type": "panel",
+                  "participants": [
+                    { "name": "Yousef AlAmmari", "role": "Moderator", "country": "KSA" },
+                    { "name": "Aqeel Mehanna", "role": "Speaker", "country": "Kuwait" },
+                    { "name": "Kamel Heshmat Gado", "role": "Speaker", "country": "Egypt" }
+                  ]
+                },
+                {
+                  "start": "02:10PM",
+                  "end": "02:40PM",
+                  "title": "Rheumatoid Arthritis: from theory to practice",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Mohamed Abid Yusuf", "role": "Speaker", "country": "KSA" }
+                  ]
+                },
+                {
+                  "start": "02:40PM",
+                  "end": "03:20PM",
+                  "title": "Biosimilars Adoption across specialties",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Martin Lee", "role": "Speaker", "country": "UAE" },
+                    { "name": "Nahla Azzam", "role": "Speaker", "country": "KSA" }
+                  ]
+                },
+                {
+                  "start": "03:20PM",
+                  "end": "03:50PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Room 2 – Pharmacists",
+          "tracks": [
+            {
+              "track": "Pharmacists",
+              "time_block": "12:00PM – 03:10PM",
+              "sessions": [
+                {
+                  "start": "12:00PM",
+                  "end": "12:10PM",
+                  "title": "Opening Remarks",
+                  "type": "introduction",
+                  "participants": [
+                    { "name": "Osama Tabbara", "role": "Speaker", "country": "IVPN" }
+                  ]
+                },
+                {
+                  "start": "12:10PM",
+                  "end": "12:35PM",
+                  "title": "Value-based Healthcare: What the Pharmacist Should Know",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Anas Hamad", "role": "Speaker", "country": "Qatar" }
+                  ]
+                },
+                {
+                  "start": "12:35PM",
+                  "end": "01:00PM",
+                  "title": "Contraception Clarity: Exploring Misunderstandings and Variety of Contraception Options",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Alaa S. Mutlaq", "role": "Speaker", "country": "KSA" }
+                  ]
+                },
+                {
+                  "start": "01:00PM",
+                  "end": "01:10PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                },
+                {
+                  "start": "01:10PM",
+                  "end": "01:35PM",
+                  "title": "Dyslipidemia Management: Closing the Gap in Cardiovascular Care",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Faisal Alenezi", "role": "Speaker", "country": "Kuwait" }
+                  ]
+                },
+                {
+                  "start": "01:35PM",
+                  "end": "02:00PM",
+                  "title": "Novel Approach in Migraine Management",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Marlene Bejjani", "role": "Speaker", "country": "UAE" }
+                  ]
+                },
+                {
+                  "start": "02:00PM",
+                  "end": "02:10PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                },
+                {
+                  "start": "02:10PM",
+                  "end": "02:35PM",
+                  "title": "Allergic Rhinitis in Focus: Treatment Choices and Tackling Adherence Challenges",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Nahla Kandil", "role": "Speaker", "country": "Egypt" }
+                  ]
+                },
+                {
+                  "start": "02:35PM",
+                  "end": "03:00PM",
+                  "title": "Optimizing Pain Management: Risks & Benefits",
+                  "type": "presentation",
+                  "participants": [
+                    { "name": "Ahmad El Ouweini", "role": "Speaker", "country": "UAE" }
+                  ]
+                },
+                {
+                  "start": "03:00PM",
+                  "end": "03:10PM",
+                  "title": "Q&A",
+                  "type": "qa",
+                  "participants": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_days": 2,
+    "total_rooms": 4,
+    "total_tracks": 8,
+    "tracks_list": ["Fertility", "Contraception", "PPH", "Cardiovascular", "Respiratory", "Migraine", "Bone/Pain & Biosimilars", "Pharmacists"],
+    "total_sessions_excluding_qa": 30,
+    "total_unique_speakers": 40,
+    "countries_represented": ["KSA", "Ukraine", "Greece", "USA", "Belgium", "UAE", "Qatar", "Kuwait", "Egypt", "Lebanon", "Oman", "South Africa", "IVPN"]
+  }
+}
