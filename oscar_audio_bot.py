@@ -6,7 +6,7 @@ Conversational voice bot using:
   - Deepgram TTS (text-to-speech playback) - SDK v6
 
 Setup:
-  pip install deepgram-sdk pyaudio google-generativeai
+  pip install deepgram-sdk sounddevice numpy google-generativeai
   export GEMINI_API_KEY="your-gemini-key"
   export DEEPGRAM_API_KEY="your-deepgram-key"
 """
@@ -14,7 +14,8 @@ Setup:
 import os
 import threading
 import time
-import pyaudio
+import numpy as np
+import sounddevice as sd
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -29,7 +30,6 @@ DEEPGRAM_API_KEY = os.environ.get("DEEPGRAM_API_KEY", "")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 # Mic settings
-FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 16000
 CHUNK = 4096
@@ -60,12 +60,9 @@ def speak(text: str):
     audio_data = b"".join(audio_chunks)
 
     # Play through speakers
-    p = pyaudio.PyAudio()
-    stream = p.open(format=FORMAT, channels=1, rate=RATE, output=True)
-    stream.write(audio_data)
-    stream.stop_stream()
-    stream.close()
-    p.terminate()
+    audio_array = np.frombuffer(audio_data, dtype=np.int16)
+    sd.play(audio_array, samplerate=RATE, blocksize=CHUNK)
+    sd.wait()
 
 
 # ── STT: Listen for one utterance ───────────────────────────────────────
@@ -115,25 +112,23 @@ def listen_for_utterance() -> str:
 
         def stream_mic():
             ready.wait()
-            audio = pyaudio.PyAudio()
-            mic = audio.open(
-                format=FORMAT,
+            mic = sd.InputStream(
+                samplerate=RATE,
                 channels=CHANNELS,
-                rate=RATE,
-                input=True,
-                frames_per_buffer=CHUNK,
+                dtype="int16",
+                blocksize=CHUNK,
             )
+            mic.start()
             print("\n🎤 Listening...")
             try:
                 while not stop_event.is_set():
-                    data = mic.read(CHUNK, exception_on_overflow=False)
-                    connection.send_media(data)
+                    data, _ = mic.read(CHUNK)
+                    connection.send_media(data.tobytes())
             except Exception:
                 pass  # websocket closed, stop sending
             finally:
-                mic.stop_stream()
+                mic.stop()
                 mic.close()
-                audio.terminate()
 
         mic_thread = threading.Thread(target=stream_mic, daemon=True)
         mic_thread.start()
