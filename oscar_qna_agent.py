@@ -5,7 +5,6 @@ Approach: Structured agenda data injected into system prompt (no RAG needed)
 
 Setup:
   pip install google-generativeai pytz
-  export GEMINI_API_KEY="your-api-key-here"
 """
 
 import os
@@ -109,33 +108,6 @@ class OSCARAgent:
         self.chat = self.model.start_chat(history=[])
 
 
-# Main function to run the agent
-def main():
-    print("=" * 50)
-    print("  OSCAR v4 Conference Assistant")
-    print("  Type 'quit' to exit, 'reset' for new chat")
-    print("=" * 50)
-
-    GEMINI_API_KEY = "AIzaSyCxHsnUNtAgyrKJnEFoceOA5JfyveP8Ecg"
-    agent = OSCARAgent(api_key=GEMINI_API_KEY)
-
-    while True:
-        question = input("\nYou: ").strip()
-        if not question:
-            continue
-        if question.lower() == "quit":
-            print("Goodbye!")
-            break
-        if question.lower() == "reset":
-            agent.reset()
-            print("Chat reset. Ask a new question!")
-            continue
-
-        try:
-            answer = agent.ask(question)
-            print(f"\nAssistant: {answer}")
-        except Exception as e:
-            print(f"\n[Error] {e}")
 
 
 # if __name__ == "__main__":
