@@ -217,7 +217,7 @@ with st.sidebar:
     st.header("About")
     st.markdown(
         "**OSCAR v4** medical conference by Organon\n\n"
-        "📅 March 23-24, 2026\n\n"
+        "📅 April 3-4, 2026\n\n"
         "🕐 UAE Time (GMT+4)\n\n"
         "🏥 8 tracks across Women's Health, Cardiovascular, "
         "Respiratory, Migraine, Bone/Pain, Biosimilars & Pharmacists"
