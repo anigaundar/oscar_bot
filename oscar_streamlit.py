@@ -100,6 +100,17 @@ st.set_page_config(
     layout="centered",
 )
 
+# Hide Streamlit Community Cloud "created by" badge
+st.markdown("""
+    <style>
+    .viewerBadge_container__r5tak,
+    .viewerBadge_link__qRIco,
+    [class*="viewerBadge"] {
+        display: none !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 st.title("🎙️ OSCAR Conference Voice Assistant")
 st.caption("Speak your question about the conference – schedule, speakers, rooms, and more.")
 
