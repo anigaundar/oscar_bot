@@ -25,7 +25,7 @@ def get_time_context() -> str:
     now = datetime.now(uae_tz)
     return (
         f"Current UAE date/time: {now.strftime('%Y-%m-%d %H:%M')} (GMT+4)\n"
-        f"Conference dates: MAR 23-24, 2026\n"
+        f"Conference dates: April 3-4, 2026\n"
     )
 
 def build_system_prompt() -> str:
